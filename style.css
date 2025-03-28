@@ -566,8 +566,9 @@ main::-webkit-scrollbar-thumb {
 }
 
 .login-account div{
-    display: block;
+    display: flex;
 }
+
 @media only screen and (min-width: 768px) {
 
     nav .fa-copy {
