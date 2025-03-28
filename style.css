@@ -60,7 +60,6 @@ nav .login-account {
     position: relative;
     top: 2px;
 }
-
 .icon-container, .fa-right-to-bracket {
     display: none;
 }
@@ -255,7 +254,6 @@ section:not(.preview-container) {
     margin: 0 35px;
 }
 
-
 .preview{
     overflow: hidden;
     position: absolute;
@@ -266,7 +264,6 @@ section:not(.preview-container) {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
-
 
 .preview-pic img {
     width: 100%;
@@ -568,6 +565,9 @@ main::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+.login-account div{
+    display: block;
+}
 @media only screen and (min-width: 768px) {
 
     nav .fa-copy {
