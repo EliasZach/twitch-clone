@@ -569,6 +569,10 @@ main::-webkit-scrollbar-thumb {
     display: flex;
 }
 
+.icon-container {
+    display: flex;
+}
+
 @media only screen and (min-width: 768px) {
 
     nav .fa-copy {
