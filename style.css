@@ -550,11 +550,6 @@ h3 {
     max-width: 500px;
 }
 
-.live-image-container {
-    width: 293px;
-    height: 170px;
-}
-
 .live {
     position: relative;
 }
@@ -759,7 +754,7 @@ h3 {
 }
 
 .general-categories {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -813,6 +808,10 @@ footer {
 
 .bold {
     font-weight: 600;
+}
+
+.footer-light {
+    display: none;
 }
 
 .asset-footer img {
@@ -938,6 +937,10 @@ main::-webkit-scrollbar-thumb {
 
     .preview-container div:not(.first-preview-container, .first-preview-container div, .arrows div, .arrows) {
         display: block;
+    }
+
+    .footer-light {
+        display: inline;
     }
     
     .second {
